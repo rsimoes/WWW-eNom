@@ -25,7 +25,7 @@ Net::eNom - Interact with eNom, Inc.'s reseller API
 
     use Net::eNom;
 
-head1 DESCRIPTION
+=head1 DESCRIPTION
 
 This module is a subclass of L<WWW::eNom> with no additional features. It exists
 to provide backward compatibility with the present distribution's previous
