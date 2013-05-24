@@ -7,7 +7,6 @@ build_requires:
   File::Temp: 0
   HTML::Parser: v3.67.0
   Module::Build: 0.3601
-  Moose: 0
   Test::Deep: 0
   Test::Exception: 0
   Test::More: 0
@@ -28,7 +27,6 @@ no_index:
 requires:
   HTTP::Tiny: 0
   Moo: 0
-  Moo::Role: 0
   Mozilla::PublicSuffix: 0
   Type::Utils: 0
   Types::Standard: 0
