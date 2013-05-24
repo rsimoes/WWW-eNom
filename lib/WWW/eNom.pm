@@ -134,6 +134,8 @@ of backward compatibility, the default is "xml_simple"; see below for an
 explanation of this response type. Use of any other valid option will lead to
 the return of string responses straight from the eNom API. These options are:
 
+=for Pod::Coverage username password response_type test
+
 =over
 
 =item * xml
