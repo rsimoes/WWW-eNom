@@ -7,7 +7,7 @@ use utf8;
 use HTTP::Tiny;
 use XML::LibXML::Simple qw(XMLin);
 
-our $VERSION = 'v1.2.0'; # VERSION
+our $VERSION = 'v1.2.0'; # TRIAL VERSION
 
 requires "_make_query_string";
 

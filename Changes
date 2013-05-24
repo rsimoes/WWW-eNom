@@ -1,6 +1,6 @@
 Revision history for WWW-eNom
 
-v1.2.0    2013-05-24 15:39:52 America/Chicago
+v1.2.0    2013-05-24 15:40:06 America/Chicago
     - Updated command list to reflect eNom's latest version of its reseller API
       version (7.8).
     - Added new, yet-to-be-documented eNom API command (ryeddula).
