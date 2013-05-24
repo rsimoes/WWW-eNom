@@ -35,6 +35,6 @@ requires:
   perl: 5.008
 resources:
   bugtracker: https://github.com/rsimoes/www-enom/issues
-  homepage: http://search.cpan.org/dist/WWW-eNom
+  homepage: https://metacpan.org/release/WWW-eNom
   repository: git://github.com/rsimoes/www-enom.git
 version: v1.2.0
