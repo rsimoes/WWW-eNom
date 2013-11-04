@@ -3,14 +3,14 @@ package WWW::eNom;
 use strict;
 use warnings;
 use utf8;
-use Moo;
+use Moo 1.000007;
 use Type::Utils qw(class_type subtype as where message);
 use Types::Standard qw(Bool Str);
 use Carp qw(croak);
 use Mozilla::PublicSuffix qw(public_suffix);
 use URI;
 
-our $VERSION = 'v1.2.3'; # VERSION
+our $VERSION = 'v1.2.4'; # VERSION
 # ABSTRACT: Interact with eNom, Inc.'s reseller API
 
 with 'WWW::eNom::Role::Commands';

@@ -17,15 +17,15 @@ my %module_build_args = (
     "Richard Sim\x{f5}es <rsimoes AT cpan DOT org>"
   ],
   "dist_name" => "WWW-eNom",
-  "dist_version" => "v1.2.3",
+  "dist_version" => "v1.2.4",
   "license" => "mit",
   "module_name" => "WWW::eNom",
   "recommends" => {},
   "recursive_test_files" => 1,
   "requires" => {
-    "Class::Method::Modifiers" => 0,
+    "Class::Method::Modifiers" => "2.04",
     "HTTP::Tiny" => 0,
-    "Moo" => 0,
+    "Moo" => "1.000007",
     "Mozilla::PublicSuffix" => 0,
     "Type::Tiny" => "0.024",
     "URI" => 0,
