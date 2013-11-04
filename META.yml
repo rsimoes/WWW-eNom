@@ -3,9 +3,10 @@ abstract: "Interact with eNom, Inc.'s reseller API"
 author:
   - 'Richard Simões <rsimoes AT cpan DOT org>'
 build_requires:
-  File::Find: 0
-  File::Temp: 0
+  File::Spec: 0
   HTML::Parser: v3.67.0
+  IO::Handle: 0
+  IPC::Open3: 0
   Module::Build: 0.3601
   Test::Deep: 0
   Test::Exception: 0
@@ -14,7 +15,7 @@ build_requires:
 configure_requires:
   Module::Build: 0.3601
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.300034, CPAN::Meta::Converter version 2.130880'
+generated_by: 'Dist::Zilla version 5.005, CPAN::Meta::Converter version 2.132830'
 license: mit
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -25,11 +26,11 @@ no_index:
     - Net::eNom
     - WWW::eNom::Role::Commands
 requires:
+  Class::Method::Modifiers: 0
   HTTP::Tiny: 0
   Moo: 0
   Mozilla::PublicSuffix: 0
-  Type::Utils: 0
-  Types::Standard: 0
+  Type::Tiny: 0.024
   URI: 0
   XML::LibXML::Simple: 0
   perl: 5.008
@@ -37,4 +38,4 @@ resources:
   bugtracker: https://github.com/rsimoes/www-enom/issues
   homepage: https://metacpan.org/release/WWW-eNom
   repository: git://github.com/rsimoes/www-enom.git
-version: v1.2.0
+version: v1.2.3

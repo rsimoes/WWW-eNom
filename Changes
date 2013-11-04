@@ -1,5 +1,16 @@
 Revision history for WWW-eNom
 
+v1.2.3    2013-11-04 14:08:28 America/Chicago
+    - Removed Moose as a testing prerequisite.
+    - Pruned down Type::Tiny-related prerequisites.
+
+v1.2.2    2013-11-04 13:53:29 America/Chicago
+    - Promoted to full release.
+
+v1.2.1    2013-11-01 21:43:19 America/Chicago
+    - Prevented Moo from falling back to Moose by replacing
+      __PACKAGE__->meta->add_method with &Class::Method::Modifier::fresh.
+
 v1.2.0    2013-05-24 15:40:06 America/Chicago
     - Updated command list to reflect eNom's latest version of its reseller API
       version (7.8).

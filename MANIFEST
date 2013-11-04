@@ -4,7 +4,6 @@ LICENSE
 MANIFEST
 META.yml
 README
-dist.ini
 lib/Net/eNom.pm
 lib/WWW/eNom.pm
 lib/WWW/eNom/Role/Commands.pm

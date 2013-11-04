@@ -8,13 +8,14 @@ use Moo;
 extends 'WWW::eNom';
 
 warnings::warnif(
-    deprecated => "This module is deprecated; use WWW::eNom instead."
+    deprecated => 'This module is deprecated; use WWW::eNom instead.'
 );
 
-our $VERSION = 'v1.2.0'; # TRIAL VERSION
+our $VERSION = 'v1.2.3'; # VERSION
 # ABSTRACT: DEPRECATED: namespace retired
 
 1;
+
 =encoding utf8
 
 =head1 NAME
