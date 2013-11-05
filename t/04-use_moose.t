@@ -5,13 +5,10 @@ use warnings FATAL => 'all';
 use Test::More;
 use Test::Exception;
 
-BEGIN {
-    eval { require Moose };
-    plan skip_all => 'Moose required for testing' if $@;
-    use_ok 'WWW::eNom'
-}
+eval { require Moose };
+plan $@ ? ( skip_all => 'Moose required for testing' ) : ( tests => 2 );
 
-plan tests => 2;
+use_ok 'WWW::eNom';
 
 lives_ok {
     WWW::eNom->new(
