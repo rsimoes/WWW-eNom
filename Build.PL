@@ -17,7 +17,7 @@ my %module_build_args = (
     "Richard Sim\x{f5}es <rsimoes AT cpan DOT org>"
   ],
   "dist_name" => "WWW-eNom",
-  "dist_version" => "v1.2.4",
+  "dist_version" => "v1.2.5",
   "license" => "mit",
   "module_name" => "WWW::eNom",
   "recommends" => {},
@@ -25,9 +25,9 @@ my %module_build_args = (
   "requires" => {
     "Class::Method::Modifiers" => "2.04",
     "HTTP::Tiny" => 0,
-    "Moo" => "1.000007",
+    "Moo" => "1.001000",
     "Mozilla::PublicSuffix" => 0,
-    "Type::Tiny" => "0.024",
+    "Type::Tiny" => "0.032",
     "URI" => 0,
     "XML::LibXML::Simple" => 0,
     "perl" => "5.008"
