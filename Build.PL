@@ -26,11 +26,11 @@ my %module_build_args = (
     "Class::Method::Modifiers" => "2.04",
     "HTTP::Tiny" => "0.031",
     "Moo" => "1.001000",
-    "Mozilla::PublicSuffix" => "v0.1.16",
+    "Mozilla::PublicSuffix" => "0.001016",
     "Type::Tiny" => "0.032",
     "URI" => "1.60",
     "XML::LibXML::Simple" => "0.91",
-    "perl" => "5.008"
+    "perl" => "v5.8.9"
   },
   "script_files" => [],
   "test_requires" => {
