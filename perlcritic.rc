@@ -1,5 +1,5 @@
 severity = 3
 verbose  = 9
 theme    = core || moose
-exclude  = RegularExpressions::RequireExtendedFormatting ValuesAndExpressions::ProhibitVersionStrings
+exclude  = ValuesAndExpressions::ProhibitVersionStrings RegularExpressions::RequireExtendedFormatting ValuesAndExpressions::ProhibitVersionStrings
 include  = Variables::ProhibitPackageVars
