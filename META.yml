@@ -25,6 +25,10 @@ no_index:
   namespace:
     - Net::eNom
     - WWW::eNom::Role::Commands
+provides:
+  WWW::eNom:
+    file: lib/WWW/eNom.pm
+    version: v1.2.5
 requires:
   Class::Method::Modifiers: 2.04
   HTTP::Tiny: 0
