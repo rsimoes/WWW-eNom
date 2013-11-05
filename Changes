@@ -1,6 +1,6 @@
 Revision history for WWW-eNom
 
-v1.2.5    2013-11-05 11:48:24 America/Chicago
+v1.2.5    2013-11-05 11:54:08 America/Chicago
     - Bumped minimum version to Moo to 1.001000.
     - Fixed test failure occurringx when Moose isn't installed.
 

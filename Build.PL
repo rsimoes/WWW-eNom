@@ -24,12 +24,12 @@ my %module_build_args = (
   "recursive_test_files" => 1,
   "requires" => {
     "Class::Method::Modifiers" => "2.04",
-    "HTTP::Tiny" => 0,
+    "HTTP::Tiny" => "0.031",
     "Moo" => "1.001000",
-    "Mozilla::PublicSuffix" => 0,
+    "Mozilla::PublicSuffix" => "v0.1.16",
     "Type::Tiny" => "0.032",
-    "URI" => 0,
-    "XML::LibXML::Simple" => 0,
+    "URI" => "1.60",
+    "XML::LibXML::Simple" => "0.91",
     "perl" => "5.008"
   },
   "script_files" => [],
